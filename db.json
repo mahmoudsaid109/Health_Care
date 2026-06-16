@@ -1,0 +1,23 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Salem Abdallah",
+      "age": 75,
+      "needs_wheelchair": true,
+      "location": "Cairo"
+    }
+  ],
+  "nurses": [
+    {
+      "id": "1",
+      "name": "Ahmed Mahmoud",
+      "specialty": "Elderly Care",
+      "rating": 4.8,
+      "availability": true
+    }
+  ],
+  "appointments": [
+    { "id": "1", "patientId": "1", "nurseId": "1", "date": "2026-06-20", "status": "PENDING" }
+  ]
+}
